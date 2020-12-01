@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/3124512.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-form {
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 30%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    margin-top: 50px;
+}
+
+.contact-field {
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.contact-field > label {
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.contact-field > input {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.contact-field > textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 6px;
+    resize: none;
+}
+
+#button {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid;
+    cursor: pointer;
+    background: #4caf50;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#result {
+    margin-top: 20px;
+}

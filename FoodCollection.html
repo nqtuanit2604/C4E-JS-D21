@@ -1,0 +1,258 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="FoodCollection.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+  </head>
+  <body style="width: 98vw; height: 100vh">
+    <div class="Container">
+      <div class="Header">
+        <img
+          src="Img/logo.png"
+          style="width: 4%; height: 5%; margin-top: 1.5%"
+        />
+        <div id="head-menu">
+          <ul id="head-ul">
+            <li>
+              <input
+                id="h"
+                type="button"
+                class="btn"
+                href="FoodCollection.html"
+                value="Home"
+              />
+            </li>
+            <li>
+              <input
+                id="s"
+                type="button"
+                class="btn"
+                href="Search.html"
+                value="Search"
+              />
+            </li>
+            <li>
+              <input
+                id="c"
+                type="button"
+                class="btn"
+                href="Contact.html"
+                value="Contact"
+              />
+            </li>
+          </ul>
+        </div>
+        <div id="head-login">
+          <input id="head-button" type="button" value="LOGIN" />
+          <label id="head-label"></label>
+        </div>
+      </div>
+      <div class="content">
+        <div class="about-us">
+          <h1>WELCOM TO US FOOD WEBSITE, HIHI</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            officia explicabo voluptatem dolorum ea itaque quos pariatur omnis,
+            beatae minima enim debitis quam, sunt cum modi illo voluptate
+            sapiente fugit. Ipsam velit reprehenderit debitis, quae mollitia
+            tempore saepe ratione veniam quam, praesentium, enim corrupti
+            deserunt ut cum nobis. Cupiditate explicabo dolorum harum laudantium
+            beatae cum praesentium omnis facere, dicta corrupti molestias eos,
+            nostrum delectus. Rerum alias incidunt atque illum velit ut dolorum
+            labore quam explicabo, enim tempora optio provident nulla
+            perferendis ipsa nihil at sequi quo ratione nam unde repellat.
+            Voluptatum quam sit saepe, veniam laboriosam nulla excepturi
+            sapiente fugit voluptatem quas. Maiores, reprehenderit? Dignissimos
+            perspiciatis quasi molestias distinctio eligendi, quos alias, illo
+            odio magni officiis dolorem qui ea unde odit dolor nihil excepturi
+            magnam consectetur. Nulla, modi possimus a autem dicta voluptas
+            voluptatem, voluptatum reprehenderit esse labore, incidunt obcaecati
+            amet libero sint magnam sit nam consequuntur eveniet accusantium
+            vel! Recusandae itaque, officiis a nisi quae vero, illo aspernatur
+            dignissimos optio minus mollitia laboriosam ipsa. Quae facilis
+            voluptate alias culpa et iure voluptatum reprehenderit nesciunt
+            repellendus delectus repudiandae rerum rem expedita aspernatur
+            laborum vel cupiditate hic, corporis amet voluptatem magnam labore
+            mollitia! Velit, facere animi similique libero delectus vero
+            eligendi.
+          </p>
+          <p>Thank you for reading this and have a nice day!</p>
+        </div>
+        <div class="content-slider">
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="\Img\slide-1.jpg" , style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="\Img\slide-2.jpg" , style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="\Img\slide-4.jpg" style="width: 100%" />
+            </div>
+          </div>
+          <br />
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+      </div>
+      <div class="login-box" style="display: none">
+        <form>
+          <ul class="login-ul">
+            <al>
+              <hi style="color: black; font-size: 50px; font-weight: 700"
+                >LOGIN</hi
+              >
+            </al>
+            <al>
+              <input
+                id="username"
+                class="login-input"
+                type="text"
+                placeholder="Username"
+            /></al>
+            <al>
+              <input
+                id="password"
+                class="login-input"
+                type="password"
+                placeholder="Password"
+            /></al>
+            <al>
+              <input
+                id="loginbox_btn"
+                type="button"
+                class="login-input-button"
+                value="LOGIN"
+              />
+              <input
+                id="create_btn"
+                type="button"
+                class="login-input-button"
+                value="CREATE"
+              />
+            </al>
+          </ul>
+        </form>
+        <div id="error" style="display: none">
+          <small>You wrong please try again</small>
+        </div>
+      </div>
+      <div class="create-box" style="display: none">
+        <form>
+          <ul class="login-ul">
+            <al>
+              <hi style="color: blanchedalmond; font-size: 30px">CREATE</hi>
+            </al>
+            <al
+              ><input
+                id="name"
+                class="login-input"
+                type="text"
+                placeholder="Write your name"
+            /></al>
+            <al>
+              <input
+                id="username"
+                class="login-input"
+                type="text"
+                placeholder="Username"
+            /></al>
+            <al>
+              <input
+                id="password"
+                class="login-input"
+                type="password"
+                placeholder="Password"
+            /></al>
+            <al>
+              <input
+                id="create-boxbtn"
+                type="button"
+                class="login-input-button"
+                value="CREATE"
+              />
+            </al>
+          </ul>
+        </form>
+        <div id="error" style="display: none">
+          <small>You wrong please try again</small>
+        </div>
+      </div>
+
+      <div class="listfood">
+        <div id="box">
+          <img
+            style="border-radius: 10px"
+            src="https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-600x400.jpg"
+          />
+          <input id="link1" class="btnlink" type="button" value="Món mặn" />
+        </div>
+        <div id="box">
+          <img
+            style="border-radius: 10px"
+            src="https://cdn.huongnghiepaau.com/wp-content/uploads/2017/06/kem-dua.jpg"
+          />
+          <input id="link2" class="btnlink" type="button" value="Món ngọt" />
+        </div>
+        <div id="box">
+          <img
+            style="border-radius: 10px"
+            src="https://www.teaandcoffee.net/wp-content/uploads/cold-brew-glass.jpg"
+          />
+          <input id="link3" class="btnlink" type="button" value="Đồ uống" />
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="col-1">
+        <h2>ABOUT US</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          obcaecati aperiam explicabo illum harum optio tenetur soluta fuga.
+          Reprehenderit harum tempora quae a dolorem ad mollitia necessitatibus
+          architecto vero quidem? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Officia obcaecati aperiam explicabo illum harum
+          optio tenetur soluta fuga.
+        </p>
+      </div>
+      <div class="col-2">
+        <h2>CONTACT US</h2>
+        <ul id="ul-footer">
+          <li>
+            <i class="fas fa-address-card">Mind X: C4E - JS - D21</i>
+          </li>
+          <li>
+            <i class="fas fa-mobile">SĐT:069696969696</i>
+          </li>
+          <li>
+            <i class="fas fa-user-friends">Team develop:Tuấn &amp; Vinh</i>
+          </li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h2>FIND US</h2>
+        <i class="fab fa-facebook-square">FACEBOOK</i>
+        <i class="fab fa-github-square">GITHUB</i>
+        <i class="fab fa-twitter-square">TWITTER</i>
+      </div>
+    </div>
+  </body>
+  <script src="FoodCollection.js"></script>
+  <script src="search.js"></script>
+</html>

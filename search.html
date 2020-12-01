@@ -1,0 +1,132 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="search.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+  </head>
+  <body style="width: 98vw; height: 100vh">
+    <div class="container">
+      <div class="Header">
+        <img
+          src="Img/logo.png"
+          style="width: 4%; height: 5%; margin-top: 1.5%"
+        />
+        <div id="head-menu">
+          <ul id="head-ul">
+            <li>
+              <input
+                id="h"
+                type="button"
+                class="btn"
+                href="FoodCollection.html"
+                value="Home"
+              />
+            </li>
+            <li>
+              <input
+                id="s"
+                type="button"
+                class="btn"
+                disabled
+                href="Search.html"
+                value="Search"
+              />
+            </li>
+            <li>
+              <input
+                id="c"
+                type="button"
+                class="btn"
+                href="Contact.html"
+                value="Contact"
+              />
+            </li>
+          </ul>
+        </div>
+        <div id="head-login">
+          <label id="head-label"></label>
+        </div>
+      </div>
+      <div class="search-form">
+        <h1 class="title">FIND YOUR FAVORITE FOOD</h1>
+        <form action="">
+          <input
+            type="text"
+            id="food-input"
+            placeholder="Search the name of food"
+          />
+          <input type="button" value="SUBMIT" id="button" />
+          <h3 style="margin-bottom: 20px; font-size: 30px">FOOD MENU</h3>
+          <div class="category">
+            <p>MÓN NGỌT</p>
+            |
+            <p>MÓN MẶN</p>
+            |
+            <p>ĐỒ UỐNG</p>
+          </div>
+          <ol class="food-col">
+            <div class="food-col-1">
+              <li>Thịt kho hột vịt lộn</li>
+              <li>Cánh gà chiên bơ</li>
+              <li>Gan Ngỗng áp chảo</li>
+              <li>Steak Bò Úc</li>
+              <li>Chè khúc bạch</li>
+            </div>
+            <div class="food-col-2">
+              <li>Kem dừa</li>
+              <li>Xôi Xoài</li>
+              <li>Blue Tequila</li>
+              <li>Cold Brew Coffee</li>
+              <li>Jagermeister</li>
+            </div>
+          </ol>
+          <div class="food-col-2"></div>
+          <p id="msg">CÓ MÓN ĂN ĐÂY RỒI</p>
+        </form>
+      </div>
+      <div id="fu" class="content">
+        <label id="wrong" style="display: none">Not Data To Load</label>
+      </div>
+      <br />
+    </div>
+    <div class="footer">
+      <div class="col-1">
+        <h2>ABOUT US</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          obcaecati aperiam explicabo illum harum optio tenetur soluta fuga.
+          Reprehenderit harum tempora quae a dolorem ad mollitia necessitatibus
+          architecto vero quidem? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Officia obcaecati aperiam explicabo illum harum
+          optio tenetur soluta fuga.
+        </p>
+      </div>
+      <div class="col-2">
+        <h2>CONTACT US</h2>
+        <ul id="ul-footer">
+          <li>
+            <i class="fas fa-address-card">Mind X: C4E - JS - D21</i>
+          </li>
+          <li>
+            <i class="fas fa-mobile">SĐT:069696969696</i>
+          </li>
+          <li>
+            <i class="fas fa-user-friends">Team develop:Tuấn &amp; Vinh</i>
+          </li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h2>FIND US</h2>
+        <i class="fab fa-facebook-square">FACEBOOK</i>
+        <i class="fab fa-github-square">GITHUB</i>
+        <i class="fab fa-twitter-square">TWITTER</i>
+      </div>
+    </div>
+  </body>
+  <script src="search.js"></script>
+</html>
